@@ -1,0 +1,104 @@
+
+
+
+*{
+    max-width: 100%;
+    font-family: museo-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.sterling{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-left: 20px;
+}
+.heading{
+    width: 100%;
+    background-image: url(assets/istockphoto-1287274564-612x612.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading h1{
+    text-align: left;
+    position: absolute;
+    color: #d92128;
+    max-width: 400px;
+    padding-left: 1rem;
+    padding-top: 300px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+.btn{
+    padding-top: 30rem;
+    padding-left: 1rem;
+    justify-content: space-evenly;
+}
+.bt{
+    border-radius: 35px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left:50px ;
+    padding-right:50px ;
+    margin-right: 1rem;
+    border: none;
+}
+.bt1{
+    border-radius: 35px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    margin-right: 1rem;
+    border: none;
+}
+.bt2{
+    border-radius: 35px;
+    padding: 20px;
+    border: none;
+}
+.bt a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.bt:hover{
+    background-color: #d92128;
+    color: white;
+    
+}
+.bt a:hover{
+    background-color: #d92128;
+    color: white;
+    transition: 0.5s ease-in;
+}
+.bt1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;  
+}
+.bt1 a:hover{
+    background-color: #d92128;
+    color: white;
+    transition: 0.5s ease-in;    
+}
+.bt2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 900;  
+}
+.bt2 a:hover{
+    background-color: #d92128;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.bt1:hover{
+    background-color: #d92128;
+}
+.bt2:hover{
+    background-color: #d92128;
+}
