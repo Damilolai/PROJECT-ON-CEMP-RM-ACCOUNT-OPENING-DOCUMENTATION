@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.accounts{
+    font-family: sans-serif;
+    font-size: 32px;
+    
+    padding-left: 20rem;
+}
+body{
+background-color: whitesmoke;
+padding-left: 1.5rem;
+}
+
+.dashboard{
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.box1{
+    padding-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 35px;
+    background-color: #6666;
+    border-radius: 10px;
+    width: 15%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px 0px rgb(27, 26, 26);
+    margin-top: 2rem;
+}
+.box1:hover{
+    background-color: whitesmoke;
+    color: #d92128
+}
+.filter{
+    justify-content: right;
+    display: flex;
+    padding-right: 10px;
+}
+.bot1{
+    padding: 0.5rem;
+    margin-right: 15px;
+    box-shadow:0px 0px 3px 0px rgb(27, 26, 26);
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: medium;
+    border: none;
+    
+}
+.bot1:hover{
+    background-color: whitesmoke;
+    color: #d92128;
+}
+.bot2{
+    padding: 0.5rem;
+    margin-right: 15px;
+    box-shadow:0px 0px 3px 0px rgb(27, 26, 26);
+    border: #d92128;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+}
+.bot2:hover{
+    background-color: whitesmoke;
+    color: #d92128;
+}
+.bot3{
+    padding: 0.5rem;
+    margin-right: 15px;
+    box-shadow:0px 0px 3px 0px rgb(27, 26, 26);
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-left: 1rem;
+    font-size: medium;
+    border: none;
+}
+.bot3:hover{
+    background-color: whitesmoke;
+    color: #d92128;
+}
