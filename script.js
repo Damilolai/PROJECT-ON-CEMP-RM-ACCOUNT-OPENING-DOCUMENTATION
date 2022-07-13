@@ -1,26 +1,12 @@
-let acc = document.getElementById('account-name').value;
-let accname = document.getElementById('instincthub');
-let box = document.getElementById('box');
-let subbmitt = document.getElementById('mySubmit');
+let submitButton = document.getElementById("mySubmit")
+let congratulations = document.getElementById("congrats")
+let accountofficer = document.getElementById ("accountOfficer")
 
-function dami (){
-    if(acc='Bola'){
-        box.style.display='block'
-    }
+
+
+function dami(){
+    congratulations.textContent = "Dear"+" " + accountofficer.value + "," + " "+ "your document has been submitted";
+event.preventDefault();
 }
-subbmitt.addEventListener('submit',dami)
 
-
-
-
-
-
-
-
-let Details = [
-    {
-      CUSTOMER: "Instinct Hub LTD",
-      ACCOUNT,OFFICER: "KEHINDE AKINTOYE",
-      ACCOUNT,OPENING,DATE: "30th January 2022",
-    },
-  ];
+submitButton.addEventListener("click",dami)

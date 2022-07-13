@@ -55,7 +55,7 @@ form {
   width: 150px;
   margin-left: 2.5rem;
   margin-bottom: 0;
-  margin-top: -1rem;
+  margin-top: -2rem;
 }
 .fill{
   display: list-item;
@@ -80,7 +80,7 @@ form {
   margin-bottom: 3px;
 }
 .cont{
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 4px;
 }
 .cont input{
@@ -90,6 +90,15 @@ form {
 }
 .cont2:hover{
   background-color: rgb(239, 236, 236);
+}
+.acc-off{
+  padding-top: 0rem;
+  padding-bottom: 4px;
+}
+.acc-off input{
+  border-radius: 5px;
+  border: none;
+  width: 217px;
 }
 .deferred {
   padding: 10px;
@@ -125,6 +134,7 @@ form {
   background-color: #d92128;
 }
 
+
 .btn:hover {
   background-color: #f05d62;
   color: white;
@@ -157,8 +167,11 @@ label.choose {
   font-size: large;
   margin-top: 0;
   margin-top: 7px;
+  list-style: none;
 }
-
+#congrats{
+  color: rgb(8, 8, 8);
+}
 
 @media screen and (max-width: 1366px) {
   .class {

@@ -28,8 +28,12 @@
         <form class="form" action="#" method="post">
             <div class="cont">
             <label for="name of account"> Name of Account </label>
-            <input class="cont2" type="search" name="account-name" id="account-name">
+            <input class="cont2" type="search" name="account-name" id="accountName" placeholder="Enter Name Of Account">
             </div>
+            <div class="acc-off">
+                <label for="account officer"> Account Officer</label>
+                <input class="cont3" type="search" name="account-officer" id="accountOfficer"placeholder ="Account Officer">
+                </div>
             <div class="container">
                 <label for="Passport">Passport</label>
                 <input type="checkbox" class="fill" name="Passport" value="Passport" required >
@@ -106,7 +110,8 @@
             <textarea class="deferred" name="deferred" id="deferred" cols="30" rows="6"
                 placeholder="List the deferred documents here(optional)"></textarea>
             <br>
-            <button id="mySubmit" class="btn" type="submit"><a href="cemp.html">Submit</a></button>
+            <button id="mySubmit" class="btn">Submit</button><p id="congrats"></p>
+            
 
 
         </form>
